@@ -52,7 +52,8 @@ header ul li{
 }
 .top-content:hover,
 .bottom-content:hover{
-  opacity:0.7;
+  opacity:0.4;
+  color:black;
 }
 .entire-bottom-section{
   float:left;
@@ -63,8 +64,9 @@ header ul li{
   font-size:36px;
 }
 footer{
-  text-align:center;
   padding:2%;
+  width:100%;
+  background:#F6F6F6;
 }
 footer p{
   font-size:24px;
