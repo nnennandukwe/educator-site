@@ -85,13 +85,13 @@
   <div class="field">
   <label class="label">Name</label>
   <div class="control">
-    <input class="input" type="text" placeholder="what's your name?">
+    <input class="input" type="text" name="name" placeholder="what's your name?">
   </div>
 </div>
 <div class="field">
   <label class="label">Email</label>
   <div class="control has-icons-left has-icons-right">
-    <input class="input" type="email" placeholder="enter email address here">
+    <input class="input" type="email" name="email" placeholder="enter email address here">
     <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>
     </span>
@@ -112,18 +112,20 @@
 <div class="field">
   <label class="label">Message</label>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <textarea class="textarea" placeholder="Textarea" name="message"></textarea>
   </div>
 </div>
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-link submit">Submit</button>
+    <button class="button is-link" type="submit">Submit</button>
   </div>
   <div class="control">
     <button class="button is-text">Cancel</button>
   </div>
 </div>
 </div>
+</form>
+</section>
 
   <div class="card right-pull">
     <div class="card-content">
@@ -135,9 +137,6 @@
       </p>
     </div>
 </div>
-</form>
-</section>
-
 
     <footer class="footer">
       <div class="container">
